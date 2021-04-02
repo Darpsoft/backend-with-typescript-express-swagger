@@ -48,12 +48,20 @@
         "description": "Get timezone",
         "parameters": [
           {
-            "name": "body",
+            "name": "obj",
             "in": "body",
-            "description": "Timezone information.",
-            "required": true,
             "schema": {
-              "$ref": "#/definitions/post-timezone"
+              "type": "object",
+              "properties": {
+                "schema": {
+                  "type": "string",
+                  "example": "any"
+                },
+                "description": {
+                  "type": "string",
+                  "example": "any"
+                }
+              }
             }
           }
         ],
