@@ -11,7 +11,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_Que cosas necesitas para instalar el software_
 
 ```
 yarn
@@ -20,7 +20,7 @@ nodejs
 
 ### Instalación 🔧
 
-_Primeo se deberá instalar las librerías correspondientes_
+_Primeo se deberá ingresar al repositorio y luego de esto, ejecutar el siguiente comando que instalará las librerías correspondientes_
 
 ```
 yarn
@@ -40,11 +40,16 @@ yarn build
 yarn start-gendoc
 ```
 
-_Por último, si desea desplegar la aplicación, puede ejecutar el siguiente script_
+_Por último, si desea **desplegar la aplicación**, puede ejecutar el siguiente script_
 
 ```
 yarn build
-yarn start o yarn start-gendoc
+yarn start 
+```
+ó
+```
+yarn build
+yarn start-gendoc
 ```
 
 ## Ejecutando las pruebas ⚙️
@@ -53,7 +58,7 @@ _Para realizar pruebas del funcionamiento, se deberá **desplegar la aplicación
 ```
 http://localhost:3000/doc/
 ```
-_Luego se deberá posicionar en el módelo, Timezone o sencillamenta entrar a la siguiente ruta [Swagger - Timezone_](http://localhost:3000/doc/#/Timezone/post_timezone)
+_Luego se deberá posicionar en el módelo, Timezone o sencillamenta entrar a la siguiente ruta [Swagger - Timezone](http://localhost:3000/doc/#/Timezone/post_timezone)_
 ```
 http://localhost:3000/doc/#/Timezone/post_timezone
 ```
