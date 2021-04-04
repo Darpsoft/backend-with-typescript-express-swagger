@@ -3,7 +3,7 @@
 _Backend simple donde se obtendrá la hora UTC según los datos que envíes_
 
 
-## Demo de la aplicación :tw-1f499:
+## Demo de la aplicación 📌
 _Si deseas ver la aplicación, puedes ingresar al siguiente link_
 
 **DEMO** -> [Heroku - Backend Timezone](https://backend-with-typescript-expres.herokuapp.com/doc/)
