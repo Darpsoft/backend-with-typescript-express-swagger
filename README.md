@@ -47,6 +47,19 @@ yarn build
 yarn start o yarn start-gendoc
 ```
 
+## Ejecutando las pruebas ⚙️
+
+_Para realizar pruebas del funcionamiento, se deberá **desplegar la aplicación**, una vez realizado, se deberá ingresar a la siguiente ruta_
+```
+http://localhost:3000/doc/
+```
+_Luego se deberá posicionar en el módelo, Timezone o sencillamenta entrar a la siguiente ruta [Swagger - Timezone_](http://localhost:3000/doc/#/Timezone/post_timezone)
+```
+http://localhost:3000/doc/#/Timezone/post_timezone
+```
+
+Allí se puede realizar las pruebas mediante el botón `Try it out` y `Execute`
+
 
 ## Construido con 🛠️
 
