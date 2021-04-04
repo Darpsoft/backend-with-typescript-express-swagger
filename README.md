@@ -42,7 +42,7 @@ yarn start-gendoc
 
 _Por último, si desea desplegar la aplicación, puede ejecutar el siguiente script_
 
-````
+```
 yarn build
 yarn start o yarn start-gendoc
 ```
